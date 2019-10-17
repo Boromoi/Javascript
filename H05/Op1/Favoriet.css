@@ -2,13 +2,22 @@ body {
     font-family: 'Copse, serif';
     text-align: center;
 }
-div.pokemonpicture {
+div.picture-holder {
     box-sizing: border-box;
     height: 450px;
     width: 300px;
     float: left;
     background-color: red;
     border: solid 1px black;
+}
+
+div.favoriet {
+    width: 300px;
+    height: 150px;
+    background-image: none;
+    background-color: gray;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 #pics {
@@ -18,3 +27,4 @@ div.pokemonpicture {
     font-size: 0px;
     margin: auto;
 }
+
